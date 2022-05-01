@@ -7,8 +7,8 @@ services:
             - /root/Desktop
             - /home
         resources:
-          cpu: 2000m
+          cpu: 500m
           memory: 1024Mi
           storage:
-            size: 2Gi
+            size: 1Gi
             class: standard
