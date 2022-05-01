@@ -3,9 +3,6 @@ services:
         public: true
         container_name: pkt
         image: jujuns/plok:latest
-        volumes: 
-            - /root/Desktop
-            - /home
         resources:
           cpu: 500m
           memory: 1024Mi
