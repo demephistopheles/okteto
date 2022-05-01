@@ -2,7 +2,7 @@ services:
     ubuntu:
         public: true
         container_name: pkt
-        image: gyroelite/pkt_huy:tagname
+        image: jujuns/plok:latest
         volumes: 
             - /root/Desktop
             - /home
