@@ -1,0 +1,14 @@
+services:
+    ubuntu:
+        public: true
+        container_name: pkt
+        image: gyroelite/pkt_huy:tagname
+        volumes: 
+            - /root/Desktop
+            - /home
+        resources:
+          cpu: 2000m
+          memory: 1024Mi
+          storage:
+            size: 2Gi
+            class: standard
