@@ -2,7 +2,7 @@ services:
     ubuntu:
         public: true
         container_name: pkt
-        image: jujuns/plok:latest
+        image: jujuns/pkt:latest
         resources:
           cpu: 500m
           memory: 1024Mi
